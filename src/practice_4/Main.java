@@ -1,6 +1,8 @@
+package practice_4;
+
 import java.util.Scanner;
 
-public class practice_4 {
+public class Main {
     public static boolean checkPytagoRule(int a, int b, int c) {
         int max = Math.max(a, Math.max(b, c));
         if (a == max) {
