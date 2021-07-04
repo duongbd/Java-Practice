@@ -11,7 +11,7 @@ public class Main {
             int number = scanner.nextInt();
             if (number == 0 || number == 1) System.out.println(number);
             if (number >= 2 && number <= MAX_VALUE_OF_N) {
-                int fBehind = 0;
+                int fBehind = 1;
                 int fAfter = 1;
                 int result = 0;
                 for (int i = 2; i <= number; i++) {
