@@ -1,4 +1,4 @@
-package practice_5;
+package practice_05;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

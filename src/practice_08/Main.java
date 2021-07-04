@@ -1,4 +1,4 @@
-package practice_8;
+package practice_08;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
