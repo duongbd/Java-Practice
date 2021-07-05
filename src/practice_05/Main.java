@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         try {
             String idStudent = scanner.next("B[1-9]{7}");
-            System.out.println(idStudent + " is match");
+            System.out.println(idStudent + " Match");
         } catch (InputMismatchException e) {
             System.out.println("Not match");
         }

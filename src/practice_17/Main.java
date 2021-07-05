@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String string = scanner.next();
+        String string = scanner.nextLine();
         String subString = scanner.next();
         if (subString.length() == 1) {
             if (string.contains(subString)) {
