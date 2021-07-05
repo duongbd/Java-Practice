@@ -2,15 +2,14 @@ package practice_20;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        try {
-            String idStudent = scanner.next("[A-Z][^' ]{0,18}[\\d]");
-            System.out.println("Accept");
-        } catch (InputMismatchException e) {
-            System.out.println("Not accept");
+            String idStudent = scanner.nextLine();
+            if (idStudent.matches("[A-Z][^\\s]{0,18}[\\d]"))
+                System.out.println("Accept");
+            else System.out.println("Not Accept");
         }
-    }
 }
